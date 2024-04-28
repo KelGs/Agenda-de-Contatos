@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+::-webkit-input-placeholder {
+    color: #d595ff;
+ }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #a31aff;
+}
+
+#container {
+    border-radius: 1rem;
+    box-shadow:  10px 10px 25px #7412b5, -10px -10px 25px #b648ff;
+    width: max-content;
+    padding: 3rem;
+}
+
+#container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#form input {
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border: 1px solid #c062ff;
+    border-radius: .5rem;
+    outline: none;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+
+#form button {
+    font-size: 2rem;
+    width: 4rem;
+    height: auto;
+    background-color: #ff25ff;
+    opacity: .8;
+    border-radius: .5rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#form button:hover {
+    opacity: 1;
+}
+
+
+#table {
+    width: 100%;
+}
+
+#table tr {
+    width: 100%;
+}
+
+#table td {
+    font-size: 1.6rem;
+    padding: .5rem 0;
+    font-family: "Roboto Mono", monospace;
+}
+
+#table tbody td {
+    border-bottom: 1px solid #6a00b1;
+}
+
+#table tr td:nth-child(1) {
+   width: 70%;
+}
+#table tr td:nth-child(2) {
+    width: 30%;
+}
+
+#table tr th {
+    text-align: start;
+    font-size: 3rem;
+}
+
+#table tfoot td {
+    padding-top: 2rem;
+}
